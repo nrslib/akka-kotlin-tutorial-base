@@ -23,8 +23,6 @@ dependencies {
 
     implementation("com.typesafe.akka:akka-persistence-typed_$scalaBinary:$akkaVersion")
     implementation("com.typesafe.akka:akka-persistence-query_$scalaBinary:$akkaVersion")
-    // https://mvnrepository.com/artifact/com.github.dnvriend/akka-persistence-inmemory
-    implementation("com.github.dnvriend:akka-persistence-inmemory_2.12:2.5.15.2")
     implementation("org.iq80.leveldb:leveldb:0.12")
     implementation("org.fusesource.leveldbjni:leveldbjni-all:1.8")
 
